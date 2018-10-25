@@ -1,0 +1,87 @@
+material squash_bottom
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture squash_bottom.tga
+			}
+		}
+	}
+}
+
+material squash_back
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture squash_back.tga
+				rotate 180
+			}
+		}
+	}
+}
+
+material squash_top
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture squash_top.tga
+			}
+		}
+	}
+}
+
+material squash_right
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture squash_right.tga
+				rotate 180
+			}
+		}
+	}
+}
+
+material squash_left
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture squash_left.tga
+				rotate 180
+			}
+		}
+	}
+}
+
+material squash_ball
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture squash_ball.tga
+			}
+		}
+	}
+}
+
